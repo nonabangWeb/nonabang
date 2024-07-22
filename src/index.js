@@ -4,6 +4,7 @@ import './index.css';
 import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
+import Registration from './pages/Registration';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ root.render(
         <Route path="/" element={<Home/>} />
         <Route path="/SignIn" element={<SignIn/>} />
         <Route path="/SignUp" element={<SignUp/>} />
+        <Route path="/Registration" element={<Registration/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

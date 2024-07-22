@@ -12,7 +12,7 @@ const Container = styled.div`
   transition: background-color 0.3s ease-in-out;
   background-color: ${(props) => props.scrolled && props.isHome ? "white" : "transparent"};
   background-color: ${(props) => !props.isHome && "white"};
-  border-bottom: ${(props) => !props.isHome && "1px solid #e8e8e8"};
+  border-bottom: ${(props) => !props.isHome && "1px solid lightgray"};
   z-index: 20;
 `;
 
@@ -24,8 +24,8 @@ const Frame = styled.div`
 `;
 
 const Logo = styled.div`
-  width: 370px;
-  height: 70%;
+  width: 340px;
+  height: 80%;
   display: flex;
   justify-content: flex-start;
   img {
@@ -125,23 +125,20 @@ const Header = ({ isHome }) => {
       <Frame>
         <Logo>
           <a href="/">
-            <img src="/images/logo2.png" alt="Logo" />
+            <img src="/images/logo.png"/>
           </a>
         </Logo>
         <MenuFrame>
           <MenuSection scrolled={scrolled} isHome={isHome}>
             <ul>
               <li>
-                <a href="#">매물찾기</a>
+                <a href="/#">지도</a>
               </li>
               <li>
-                <a href="#">매물등록</a>
+                <a href="/Registration">방등록</a>
               </li>
               <li>
-                <a href="#">나의매물</a>
-              </li>
-              <li>
-                <a href="#">매물 추천받기</a>
+                <a href="#">찜한목록</a>
               </li>
             </ul>
           </MenuSection>

@@ -14,7 +14,7 @@ const Container = styled.div`
 
 const Layout = styled.div`
   width: 100%;
-  height: 1000px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
