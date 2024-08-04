@@ -73,7 +73,7 @@ const ItemFrame = () => {
   return (
     <Container>
       <Frame>
-        <Item>
+        <Item href="/SearchRoom">
           <ItemTitleText>
             <h1>방 찾기</h1>
           </ItemTitleText>

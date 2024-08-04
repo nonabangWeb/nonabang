@@ -82,7 +82,7 @@ const SignInContent = () => {
         <Header>
           <LottieAnimation/>
         </Header>
-        <Middle><h2>로그인하고 <br/> 노나방으로 자취방 찾으러 가볼까요?</h2></Middle>
+        <Middle><h2>로그인하고 자취방 노나방~?</h2></Middle>
         <Footer>
           <LoginArea>
             <SocialBtn><RiKakaoTalkFill style={{fontSize: "30px", marginRight: "10px"}}/>카카오로 간편 로그인하기</SocialBtn>

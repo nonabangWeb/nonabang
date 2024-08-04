@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Registration from './pages/Registration';
+import SearchRoom from './pages/SearchRoom';
+import DetailRoom from './components/DetailRoom';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -17,6 +19,8 @@ root.render(
         <Route path="/SignIn" element={<SignIn/>} />
         <Route path="/SignUp" element={<SignUp/>} />
         <Route path="/Registration" element={<Registration/>} />
+        <Route path="/SearchRoom" element={<SearchRoom/>} />
+        <Route path="/DetailRoom" element={<DetailRoom/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
